@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
+import "./App.css";
+import HeroSection from "./componenets/Hero";
+import Navigation from "./componenets/navigation";
+const App =()=>{
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        Hello World
+    return (
+        <div>
+        <Navigation/>
+        <HeroSection/>
         </div>
-    </>
-  )
-}
-
+    );
+};
 export default App
